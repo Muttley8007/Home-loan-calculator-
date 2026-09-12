@@ -12,3 +12,7 @@ Standalone mortgage-ledger prototype.
 - Existing v1.1 backups remain import-compatible.
 
 The app stores data locally in the browser. Export backups regularly.
+
+
+## v1.3
+- Added an Indefinite option for recurring ledger entries. When selected, the series repeats for the life of the loan without requiring a far-future Repeat Until date.
