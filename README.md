@@ -1,4 +1,14 @@
-# Mortgage Ledger — First Run
-Standalone progressive web app for mortgage-led cash flow.
+# Mortgage Ledger v1.2
 
-Features: existing/new loan setup; Day 1 only forecasting; daily interest forecast; actual interest replacement; planned vs calculated completion; ahead/behind counter; one-off and recurring credits/debits; rate changes; year/month ledger; Expand All / Collapse All inside every year; future years collapsed by default; Annualizer-style Target Board; JSON backup/import; separate local storage from Payday Planner.
+Standalone mortgage-ledger prototype.
+
+## v1.2 changes
+- Added Edit for ledger transactions and recurring series.
+- Editing Repeat Until earlier removes future generated instances.
+- Editing Repeat Until later adds generated instances using the same recurring rule.
+- Editing amount, type, date, description or frequency updates the saved series.
+- Delete removes the entire recurring series.
+- No confirmation prompt is used for shortening or extending Repeat Until.
+- Existing v1.1 backups remain import-compatible.
+
+The app stores data locally in the browser. Export backups regularly.
